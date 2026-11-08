@@ -1,0 +1,15 @@
+{
+  "name": "freex-cloudflare-sites",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A private Cloudflare website gallery by FreeX, with automatic inventory updates and a proposal for a native ChatGPT Cloudflare menu.",
+  "type": "module",
+  "license": "MIT",
+  "author": "FreeX (https://miggy.com.au)",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node scripts/preview.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test"
+  }
+}

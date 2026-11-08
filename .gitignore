@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.openai/
+.env
+.env.*
+*.zip
+.sites-runtime/
+
+__pycache__/
+*.pyc
